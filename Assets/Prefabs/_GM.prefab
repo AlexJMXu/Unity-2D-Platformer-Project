@@ -5,9 +5,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 438982}
+  - component: {fileID: 438982}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -20,14 +20,14 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 437252}
-  - 114: {fileID: 11485518}
-  - 114: {fileID: 11403556}
-  - 114: {fileID: 11493764}
-  - 114: {fileID: 11423658}
-  - 114: {fileID: 11461318}
+  - component: {fileID: 437252}
+  - component: {fileID: 11485518}
+  - component: {fileID: 11403556}
+  - component: {fileID: 11493764}
+  - component: {fileID: 11423658}
+  - component: {fileID: 11461318}
   m_Layer: 0
   m_Name: _GM
   m_TagString: GM
@@ -44,11 +44,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.2850566, y: -0.109135054, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 438982}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &438982
 Transform:
   m_ObjectHideFlags: 1
@@ -58,10 +58,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.2850566, y: 1.6791353, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 437252}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11403556
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,6 +152,18 @@ MonoBehaviour:
     enemy: {fileID: 489592, guid: 9a5d5916872320b44b6617ff9c49e6f7, type: 2}
     count: 5
     rate: 2
+  - name: Run While You Can. Part 2
+    enemy: {fileID: 489592, guid: 9a5d5916872320b44b6617ff9c49e6f7, type: 2}
+    count: 15
+    rate: 2.5
+  - name: Run While You Can. Part 3
+    enemy: {fileID: 489592, guid: 9a5d5916872320b44b6617ff9c49e6f7, type: 2}
+    count: 20
+    rate: 3
+  - name: Run While You Can. Part 4
+    enemy: {fileID: 489592, guid: 9a5d5916872320b44b6617ff9c49e6f7, type: 2}
+    count: 25
+    rate: 3.5
   spawnPoints:
   - {fileID: 0}
   - {fileID: 0}

@@ -33,7 +33,7 @@ namespace UnitySampleAssets._2D
             groundCheck = transform.Find("GroundCheck");
             ceilingCheck = transform.Find("CeilingCheck");
             anim = GetComponent<Animator>();
-            playerGraphics = transform.FindChild("Graphics");
+            playerGraphics = transform.Find("Graphics");
             if (playerGraphics == null) {
                 Debug.LogError("No graphics mate.");
             }

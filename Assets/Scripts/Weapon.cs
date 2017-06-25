@@ -27,7 +27,7 @@ public class Weapon : MonoBehaviour {
 
 
 	void Awake () {
-		firePoint = transform.FindChild("FirePoint");
+		firePoint = transform.Find("FirePoint");
 		if (firePoint == null) {
 			Debug.LogError("Yo yo can't find firepoint");
 		}
