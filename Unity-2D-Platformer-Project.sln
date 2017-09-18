@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-firstpass.csproj", "{D0885FED-C16F-F500-18F6-CA6CC59FF432}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp.csproj", "{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-Editor-firstpass.csproj", "{89213176-068C-6C82-362D-A4ADAAAE1527}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-firstpass.csproj", "{D0885FED-C16F-F500-18F6-CA6CC59FF432}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-Editor.csproj", "{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-Editor-firstpass.csproj", "{89213176-068C-6C82-362D-A4ADAAAE1527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,22 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89213176-068C-6C82-362D-A4ADAAAE1527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89213176-068C-6C82-362D-A4ADAAAE1527}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89213176-068C-6C82-362D-A4ADAAAE1527}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89213176-068C-6C82-362D-A4ADAAAE1527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0885FED-C16F-F500-18F6-CA6CC59FF432}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89213176-068C-6C82-362D-A4ADAAAE1527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89213176-068C-6C82-362D-A4ADAAAE1527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89213176-068C-6C82-362D-A4ADAAAE1527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89213176-068C-6C82-362D-A4ADAAAE1527}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
