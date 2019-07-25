@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp.csproj", "{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2C88FD38-D1EF-8CD0-F5A0-AD4AD64ED309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-firstpass.csproj", "{D0885FED-C16F-F500-18F6-CA6CC59FF432}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{D0885FED-C16F-F500-18F6-CA6CC59FF432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-Editor.csproj", "{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{4BCA84E4-FAD1-E376-1256-42D6DF4452F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity-2D-Platformer-Project", "Assembly-CSharp-Editor-firstpass.csproj", "{89213176-068C-6C82-362D-A4ADAAAE1527}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{89213176-068C-6C82-362D-A4ADAAAE1527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
